@@ -1,0 +1,77 @@
+*, html {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body .topNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body .topNav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 15px;
+}
+
+body .topNav ul li {
+  list-style: none;
+}
+
+body .topNav ul li a {
+  text-decoration: none;
+  margin: 5px;
+  color: black;
+}
+
+body .topNav ul li a:hover {
+  color: green;
+}
+
+body .container {
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container .colorContainer {
+  border: 1px solid white;
+  border-radius: 7px;
+  padding: 30px;
+}
+
+body .container .colorContainer #button {
+  cursor: pointer;
+  outline: none;
+  padding: 4px;
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+body .container .colorContainer > * {
+  margin: 6px;
+}
+/*# sourceMappingURL=style.css.map */
